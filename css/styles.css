@@ -1,0 +1,94 @@
+:root{
+ --main-font-family: 'Roboto', sans-serif;
+ --text-size: 16px;
+ --text-color: black;
+}
+
+body{
+    font-family: var(--main-font-family);
+    color: var(--text-color);
+    background-color: #ffffff;
+}
+
+.footer-logo:link{
+    color:white;
+}
+
+
+a:link{
+    color: #2E2F42;
+    text-decoration: none;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+a:active,a:hover{
+    color:#404BBF;
+    text-decoration: none;
+
+}
+
+.filter{
+    color:#4D5AE5;
+}
+
+button{
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border:none;
+    padding: 12px 24px 12px 24px;
+  }
+
+button:hover{
+    color:#4D5AE5;
+    cursor:pointer;
+    background-color:#ffffff;
+}
+
+p{
+    font-style: normal;
+    font-weight: 400;
+    color:#2E2F42;
+    letter-spacing: 2%;
+    line-height: 24px;
+}
+
+h2, h3{
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+footer{
+    color: #ffffff;
+    background-color: #2E2F42;
+ 
+}
+span{
+    color: #4D5AE5;
+}
+
+.navigation :link{
+    color: #2E2F42;
+}
+
+.navigation:hover{
+    color:#404BBF;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    background-color: #2E2F42;
+    font-family: var(--main-font-family);
+    color:white;
+    letter-spacing: 2%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 56px;
+}
+
